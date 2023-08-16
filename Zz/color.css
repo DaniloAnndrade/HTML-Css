@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "texto";
+    src: url(font/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf) format('Truetype');
+}
+
+* {font-size: 29px;
+    font-family: 'texto';}
+
+body{
+    background-image: linear-gradient(to right,#7229D9,#668CD9);
+    }
+
+div{
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    display: inline-flex;
+    background-color: #F2600C;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+
+
+}
+
+div:hover {
+    background-color: #F2B035;
+}
+div > p{margin: 10px 10px 10px 10px;
+
+    padding: 10px 10px 10px 10px;
+    display: none;}
+
+div:hover >p{
+    color: #7229D9;
+    display: block;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+
+
+main {text-indent: 20px;
+    height: auto;
+    width: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    }
+
+h1{
+    text-align: center;
+    color: black;}

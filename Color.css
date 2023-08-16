@@ -1,0 +1,129 @@
+@charset "UTF -8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@300;500;600;700;900&display=swap');
+
+@font-face {
+    font-family: "idroid";
+    src: url('Desafioguanabara/sitegithub/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+
+    
+}
+
+*{  
+    font-family: Arial, Helvetica, sans-serif;}
+
+body{background-color: #99DEB1;}
+
+header{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    background-image: linear-gradient(to bottom,#56A56C,#193C21);
+    margin: -8px -8px 0px -8px;
+    padding: 1px 6px 0px 0px;  
+    text-align: center;}
+
+header > h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;}
+h1{font-family: 'Bebas Neue', cursive;}
+
+main > h1{ color: #193C21;}
+main > h2 {background-image: linear-gradient(to right,#CCE9D7,white);}
+
+strong >a {
+    margin: 0px -5px 0px 0px;
+    background-color: #56a56c48;
+    color: #193C21;}
+
+header >p{
+    line-height: 1em;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding: 29px 20px 0px 20px;
+    color: white;}
+
+header > nav{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    text-align: left;}
+
+a {
+    padding: 0px 4px 0px 0px;
+    text-decoration: none;
+    color: white;}
+
+nav a:hover {
+    padding: 10px 10px 10px 10px;
+    transition-duration: 1s;
+    border-radius: 5px;
+    background-color: #99DEB1;}
+
+main{line-height: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 0px 0px 5px 5px;
+    min-width: 400px;
+    max-width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin: -10px auto 10px auto;
+    background-color: white;}
+
+main > p{
+    margin: 0px 20px 0px 20px;}
+
+
+h2{color: #193C21;
+    font-family: 'idroid',sans-serif;}
+
+div.video{margin: 0px -20px 30-x -20px;
+    padding-bottom: 59%;
+    position: relative;
+    background-color: #193C21;}
+
+div.video > iframe{
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    
+}
+
+article{
+    line-height: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 0px 10px 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #99DEB1;}
+article > aside > p{margin: 10px;}
+        
+ul{list-style-type: '\1F5F8\00A0';
+    columns: 2;
+    list-style-position: inside ;}
+
+article > p{
+    line-height: 1em;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px ;
+    background-color: #CCE9D7;}
+
+h3{color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    
+    background-color: #56A56C}
+
+ol{
+    text-decoration: underline;}
+
+footer{color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px -8px -8px -8px;
+    background-color: #193C21;}
+
