@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root{
+
+--color1:#F2C744;
+--color2:#F29B30;
+--color3:#F2762E;
+--color4:#BF533B;
+--color5:#F22816;
+
+}
+
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+header{padding: 1px 0px 5px 0px;
+    margin: -33px -10px 0px -10px;
+    background-color: var(--color1);}
+
+header > h1{
+    color: white;
+    padding: 10px 10px 10px 10xp;
+    margin:32px 0px 3px 10px;}
+
+header >nav{
+    deco
+    margin: 1px 0px -8px 1px;
+    padding: 5px 0px 5px 5px;
+    background-color: var(--color4);
+    }
+
