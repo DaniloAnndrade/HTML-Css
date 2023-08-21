@@ -22,7 +22,7 @@ header > h1{
     margin:32px 0px 3px 10px;}
 
 header >nav{
-    
+    display: flex;
     margin: 1px 0px -8px 1px;
     padding: 5px 0px 5px 5px;
     background-color: var(--color4);
@@ -33,13 +33,10 @@ header>nav >a{
     color: aliceblue;
     text-decoration: none;}
 
-header>nav>a:hover{
-    margin: 5px 10px 5px 10px;
-    padding:5px 10px 5px 10px;
-    background-color: #F22816;}
+header>nav>a:hover{color: #F2C744;}
 
 #c01{}
 #c02{}
 #c03{}
-#c04{margin: 5px 10px 5px 100px;}
+#c04{margin-left: auto;}
 
