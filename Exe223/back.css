@@ -12,14 +12,19 @@
 
 *{font-family: Georgia, 'Times New Roman', Times, serif;}
 
-header{padding: 1px 0px 5px 0px;
+body{background-color: #F29B30;}
+
+header{padding: 6px 0px 0px 0px;
     margin: -33px -10px 0px -10px;
     background-color: var(--color1);}
 
+/* Titulo*/
 header > h1{
     color: white;
     padding: 10px 10px 10px 10xp;
     margin:32px 0px 3px 10px;}
+
+/* configurações da barra de menu*/
 
 header >nav{
     display: flex;
@@ -33,10 +38,46 @@ header>nav >a{
     color: aliceblue;
     text-decoration: none;}
 
+/* Menu interativo*/
+
 header>nav>a:hover{color: #F2C744;}
 
 #c01{}
 #c02{}
 #c03{}
 #c04{margin-left: auto;}
+
+/*O corpo da pagina*/
+
+main{display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 20px 25px 20px;
+    margin: 8px 15px 8px 15px;
+    background-color: white;}
+
+.grande{display: flex;
+        flex-direction: column;}
+
+.grande img{
+    height: 500px;
+    width: 350px;}
+
+.grande h2{text-decoration: dashed;
+    font-family: 'Times New Roman', Times, serif}
+
+.pequeno{margin: 0px 5px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;}
+
+.pequeno h2{font-family: 'Times New Roman', Times, serif;
+    padding: 2px 30px;
+    color: white;
+    background-color: #BF533B;
+    text-align: center;}
+
+.pequeno img{
+            }
+
 
