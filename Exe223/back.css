@@ -49,35 +49,13 @@ header>nav>a:hover{color: #F2C744;}
 
 /*O corpo da pagina*/
 
-main{display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+main{
     padding: 5px 20px 25px 20px;
     margin: 8px 15px 8px 15px;
     background-color: white;}
 
-.grande{display: flex;
-        flex-direction: column;}
 
-.grande img{
-    height: 500px;
-    width: 350px;}
 
-.grande h2{text-decoration: dashed;
-    font-family: 'Times New Roman', Times, serif}
 
-.pequeno{margin: 0px 5px;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;}
-
-.pequeno h2{font-family: 'Times New Roman', Times, serif;
-    padding: 2px 30px;
-    color: white;
-    background-color: #BF533B;
-    text-align: center;}
-
-.pequeno img{
-            }
 
 
