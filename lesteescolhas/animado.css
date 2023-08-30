@@ -1,8 +1,19 @@
 @charset "UTF-8";
 
+@keyframes spin{
+
+to {
+    transform: rotate(360deg);
+}
+
+}
 
 .spinner{
-    border-top-color: aqua;
-    border: 20px solid rgba(255, 255, 255, 0.1);
     width: 50px ;
-    height: 50px;}
+    height: 50px;
+    border: 20px solid rgba(27, 27, 27, 0.1);
+    border-top-color: aqua;
+    border-radius: 50%;
+    animation: spin 9s linear infinite;}
+
+.spinner p{text-align: center;}
