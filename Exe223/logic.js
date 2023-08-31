@@ -55,11 +55,11 @@ const catalogo =[
         imagem: 'product-8.jpg', 
         feminino: true, }]
 
-for (const itensCatalogo of catalogo) {const card = `<div id="loc-1">
+for (const itensCatalogo of catalogo) {const card = `<div id="loc-1" class='cardcss'>
 <img src="imagens/assets/img/${itensCatalogo.imagem}" alt="Sueter branco">
-<p>${itensCatalogo.marca}</p>
-<p>${itensCatalogo.nome}</p>
-<p>R$${itensCatalogo.preco}</p>
+<p class='marca'>${itensCatalogo.marca}</p>
+<p class='nome'>${itensCatalogo.nome}</p>
+<p class='preco'>R$${itensCatalogo.preco}</p>
 <button>Adicionar</button>
 </div>`
 document.getElementById("mostr").innerHTML += card;

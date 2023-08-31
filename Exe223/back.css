@@ -2,20 +2,20 @@
 
 :root{
 
---color1:#F2C744;
---color2:#F29B30;
---color3:#F2762E;
---color4:#BF533B;
---color5:#F22816;
+--color1:#0C0826;
+--color2:#282740;
+--color3:#00010D;
+--color4:#5D6973;
+--color5:#979FA6;
 
 }
 
 *{font-family: Georgia, 'Times New Roman', Times, serif;}
 
-body{background-color: #F29B30;}
+body{background-color: var(--color5)}
 
 header{padding: 6px 0px 0px 0px;
-    margin: -33px -10px 0px -10px;
+    margin: -33px -8px 0px -8px;
     background-color: var(--color1);}
 
 /* Titulo*/
@@ -26,7 +26,7 @@ header > h1{
 
 /* configurações da barra de menu*/
 
-header >nav{
+header >nav{border: #979FA6 1px;
     display: flex;
     margin: 1px 0px -8px 1px;
     padding: 5px 0px 5px 5px;
@@ -40,12 +40,13 @@ header>nav >a{
 
 /* Menu interativo*/
 
-header>nav>a:hover{color: #F2C744;}
+header>nav>a:hover{color: var(--color5);}
 
 #c01{}
 #c02{}
 #c03{}
-#c04{margin-left: auto;}
+#c04{
+    margin-left: auto;}
 
 /*O corpo da pagina*/
 
@@ -54,8 +55,38 @@ main{
     margin: 8px 15px 8px 15px;
     background-color: white;}
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    }
 
 img{border: black;
     height: 300px;
     }
 
+.marca{font-family: 'Courier New', Courier, monospace;
+    
+    margin: 1px 1px;
+    font-weight: bold;
+    color: var(--color1);}
+
+.nome{font-family: 'Courier New', Courier, monospace;
+    
+    font-size: medium;}
+
+.preco{text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1px 1px;
+    font-weight: bold;}
+
+.cardcss{flex-direction: column;
+    display: flex;
+    width: 200px;
+    margin: 5px 5px 5px 5px;
+    border: solid #00010D 1px}
+
+ button{color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--color4);
+    border: solid white;}
