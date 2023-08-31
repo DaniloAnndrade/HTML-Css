@@ -55,11 +55,7 @@ main{
     background-color: white;}
 
 
-
-#mostr{}
-
-#loc-1{}
-
-img{height: 300px;
+img{border: black;
+    height: 300px;
     }
 
