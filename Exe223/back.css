@@ -38,6 +38,12 @@ header>nav >a{
     color: aliceblue;
     text-decoration: none;}
 
+.login{margin: -8px;
+    padding: 0px;
+    height: 34px;
+    width: 35px;
+}}
+
 /* Menu interativo*/
 
 header>nav>a:hover{color: var(--color5);}
@@ -79,8 +85,7 @@ img{border: black;
     margin: 1px 1px;
     font-weight: bold;}
 
-.cardcss{flex-direction: column;
-    display: flex;
+.cardcss{
     width: 200px;
     margin: 5px 5px 5px 5px;
     border: solid #00010D 1px}
