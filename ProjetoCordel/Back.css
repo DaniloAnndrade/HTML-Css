@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+:root{
+    --font1:('Passion One', cursive)
+    --font2:('Sriracha', cursive)
+}
+
+p{
+    font-size: 25px;
+    font-family:'Sriracha', cursive ;}
+
+/*Cabeçalho*/
+
+body{margin: 0px;}
+header{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    background-color: black;
+    font-family: 'Passion One', cursive;}
+
+strong#cm{font-size: xxx-large ;}
+
+p#por{font-size: 15px;
+    margin-top: -17px;}
+
+strong#autor{font-size: 15px;
+    font-family: 'Passion One';}
+
+/*Primeiro texto*/
+
+article#t1{ margin-left: 20px;
+;
+    height: 320px;
+    width: 320px;
+    }
+  
+/*Primeira Imagem*/
+
+article#i1{
+    color: white;
+    background-color: rgba(12, 97, 9, 0.349);
+    margin-left: 20px;
+    height: 320px;
+    width: 320px;
+    }
+
+.img{
+    background-size: cover;
+    height: 500px;
+    background: url("imagens/background001.jpg") right bottom no-repeat  fixed;}
+
+
+/**/
+
+/**/
