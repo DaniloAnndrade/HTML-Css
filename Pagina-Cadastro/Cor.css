@@ -30,11 +30,10 @@ main{
 
 
 
-div.flut{margin: 10px 10px;
-    box-shadow: 2px 5px 20px black;
+div.flut{    box-shadow: 9px 12px 31px black;
     float: left;
-    height: 370px;
-    width:300px ;
+    height: 383px;
+    width: 390px;
     background-color: var(--cor3) ;}
 
 
