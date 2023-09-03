@@ -13,6 +13,7 @@
 
 body{background: linear-gradient(45deg, #3C3D59,#6872A6,#9E99BF) no-repeat fixed ;}
 
+body{max-width: 400px;}
 main{display: flex;
     margin: 2px;
     position: absolute;
