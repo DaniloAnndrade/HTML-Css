@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+table{font-size: large;
+    border-collapse: collapse;}
+
+caption{font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.363);}
+
+thead{background-color: gray;}
+
+td,th{
+    padding: 5px;
+    border: 1px solid black;
+    }
