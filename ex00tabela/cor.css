@@ -13,3 +13,10 @@ caption{
     font-weight: bold;
     padding: 5px;
     background-color: gray;}
+
+.foto
+{   
+    width: 600px;
+    }
+
+img:hover{background-image: url(imagens/foto0\,1.jpg);}
