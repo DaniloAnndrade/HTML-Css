@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root{
+
+    ---cor1:#0C2333;
+    ---cor2:#725746;
+    ---cor3:#828491;
+
+    ---font1:font-family: 'Open Sans', sans-serif;
+}
+
+body{ margin: 0;
+    display: flex;
+    background-image: url('Pontos/monaco.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+div{flex: 0 0 50%;
+    min-height: 100vh;
+    background-color: var(---cor1);
+    }
+
+/* dentro do box*/
+
+h2{ font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 35% 50% 0px 17%;
+    margin: 0px 0px -16px 0px;
+    color: white;}
+
+h1{ 
+    font-size: 60px ;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 0px 17%;
+    margin: 0px 0px;
+    color: white;}
+
+p#barra {padding: 0px 0px 0px 6%;
+    margin: -14px 0px 0px 17%;
+    background-color:  white;
+    width: 66%;
+    height: 2px;}
+
+p#barranome{
+    width: auto;
+    background-color: #828491;}
+
