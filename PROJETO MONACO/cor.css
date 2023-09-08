@@ -43,7 +43,6 @@ p#barra {padding: 0px 0px 0px 6%;
     width: 66%;
     height: 2px;}
 
-p#barranome{
-    width: auto;
-    background-color: #828491;}
+p#barranome{padding: auto;
+    background-color: white;}
 
