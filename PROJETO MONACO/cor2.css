@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root{
+    ---cor1:#0C2333;
+    ---cor2:#725746;
+    ---cor3:#DFE3E6;
+
+    ---font1:font-family: 'Open Sans', sans-serif;
+}
+
+body{background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('Pontos/monaco.jpg');}
+
+/*Cabeçalho*/
+
+
+
+
+
+
+/*Roda-pé*/
+footer{
+    bottom:0;
+    left:0;
+    right:0;
+    font-weight: bold;
+    color: white;
+    background-color: var(---cor1);
+    position: fixed;}
+p#redesocial {
+    text-align: right;
+    margin: -8px 15px 5px 0px;}
+
+
+
+p#redesocial > a >img:hover{
+    border-radius: 50%;
+    transition: 1s;
+    border: 2px solid #DFE3E6;}
