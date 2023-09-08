@@ -4,7 +4,7 @@
 
     ---cor1:#0C2333;
     ---cor2:#725746;
-    ---cor3:#828491;
+    ---cor3:#DFE3E6;
 
     ---font1:font-family: 'Open Sans', sans-serif;
 }
@@ -43,6 +43,27 @@ p#barra {padding: 0px 0px 0px 6%;
     width: 66%;
     height: 2px;}
 
-p#barranome{padding: auto;
-    background-color: white;}
+p#barranome{color: var(---cor1);
+
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25% 0px 0px 17%;
+    background-color: var(---cor3);
+    display: inline-block;
+    padding: 4px 5px 8px 5px;}
+
+input{padding: 5px 0px 0px 0px;
+    font-size: 19px;
+    border: none;
+    margin: -4px;
+    height: 44px;
+    width: 164px;
+    outline: none;}
+
+a{  font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: -20px;
+    padding: 16px 8px 11px 8px;
+    background-color: var(---cor3);
+    color: black;}
 
