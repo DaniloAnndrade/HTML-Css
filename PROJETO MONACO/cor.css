@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 :root{
 
     ---cor1:#0C2333;
@@ -47,7 +49,7 @@ p#barranome{color: var(---cor1);
 
     font-size: 27px;
     font-family: 'Open Sans', sans-serif;
-    margin: 25% 0px 0px 17%;
+    margin: 16% 0px 25% 17%;
     background-color: var(---cor3);
     display: inline-block;
     padding: 4px 5px 8px 5px;}
@@ -57,7 +59,7 @@ input{padding: 5px 0px 0px 0px;
     border: none;
     margin: -4px;
     height: 44px;
-    width: 164px;
+    width: 40%;
     outline: none;}
 
 a{  font-size: 16px;
@@ -66,4 +68,17 @@ a{  font-size: 16px;
     padding: 16px 8px 11px 8px;
     background-color: var(---cor3);
     color: black;}
+
+@media (max-width: 1366px){
+
+}
+
+@media (max-width: 711px)
+
+{
+div{min-width: 100vw;
+    min-height: 12vh;}
+h2{padding: 25% 50% 0px 17%;}
+}
+
 
