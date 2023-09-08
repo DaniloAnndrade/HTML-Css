@@ -1,9 +1,5 @@
 @charset "UTF-8";
-
-
-
 :root{
-
     ---cor1:#0C2333;
     ---cor2:#725746;
     ---cor3:#DFE3E6;
@@ -13,10 +9,8 @@
 
 body{ margin: 0;
     display: flex;
-    background-image: url('Pontos/monaco.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;}
+    background: url('Pontos/monaco.jpg') no-repeat fixed ;
+    background-size: cover;}
 
 div{flex: 0 0 50%;
     min-height: 100vh;
@@ -62,23 +56,37 @@ input{padding: 5px 0px 0px 0px;
     width: 40%;
     outline: none;}
 
-a{  font-size: 16px;
+a{  text-decoration: none;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin: -20px;
     padding: 16px 8px 11px 8px;
     background-color: var(---cor3);
     color: black;}
 
-@media (max-width: 1366px){
+a:hover{transition: 1s;
+    background-color: var(---cor2);}
+
+/*Tamanhos de Tela*/
+
+@media (max-width: 773px){
+h2{padding: 50% 50% 0px 17%;}
+
+}
+@media (max-width: 630px){
+div{min-width: 100vw;
+    min-height: 12vh;}
+h2{padding: 25% 50% 0px 17%;} 
+input{padding: 4px 0px 0px 0px;}
+a{padding: 15px 8px 11px 8px}
 
 }
 
-@media (max-width: 711px)
+@media (max-height: 300px){
+h2{padding: 10% 50% 0px 17%;}
+input{padding: 4px 0px 0px 0px;}
+a{padding: 15px 8px 11px 8px}
 
-{
-div{min-width: 100vw;
-    min-height: 12vh;}
-h2{padding: 25% 50% 0px 17%;}
 }
 
 
