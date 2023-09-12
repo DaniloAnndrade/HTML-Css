@@ -68,7 +68,14 @@ span#icone:hover{
 
 /*corpo*/
 
+aside > h3 >a{color: var(---cor1);}
 
+main >strong >  p#apre{
+    padding-block: 6px ;
+    background-color: #DFE3E6;
+    margin-bottom: 15px;
+
+}
 main{margin: 16px 10% -44px 10%;
     padding-bottom: 20px;
     height: auto;
