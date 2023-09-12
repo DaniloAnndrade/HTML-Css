@@ -74,6 +74,25 @@ main{margin: 0px 10% 0px 10%;
 
     background-color: white;}
 
+
+#bemvindo{margin: 0px;
+    padding-block: 3%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;}
+
+#apre{margin: 2px 5% 5px 5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;}
+
+#linhas-text{
+    margin-inline: 4%;
+    border-radius: 10px;
+    width: 70vw;
+    height: 2px;
+    background-color: #725746;}
+
+
+
 /*Roda-pé*/
 footer{
     bottom:0;
