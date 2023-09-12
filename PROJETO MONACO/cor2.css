@@ -69,8 +69,9 @@ span#icone:hover{
 /*corpo*/
 
 
-main{margin: 0px 10% 0px 10%;
-    height: 77vh;
+main{margin: 16px 10% -44px 10%;
+    padding-bottom: 20px;
+    height: auto;
 
     background-color: white;}
 
@@ -90,6 +91,16 @@ main{margin: 0px 10% 0px 10%;
     width: 70vw;
     height: 2px;
     background-color: #725746;}
+
+#box{border-bottom: 1px solid #725746;
+    display: flex;
+    margin: 0px 5% 40px 5%;}
+
+#box aside h3{margin: 0px 0px 0px 0px;}
+
+#box img{
+    margin: 0px 5% 40px 5%;
+    width: 250px;}
 
 
 
@@ -115,13 +126,23 @@ p#redesocial > a >img:hover{
 
 @media (max-width: 680px) {
 
+#box{
+    display: block;
+    margin: 0px 5% 70px 5%;}
+
+#box aside h3{margin: 0px 0px 0px 0px;}
+
+#box img {
+    margin: 0px 0% 40px 0%;
+    width: 250px;}
+    
+
 #pl {margin: 0px;
     display: none; }
 span#icone { display: block; }
 
 #pl.menu-visivel { 
     display: block ;
-    text-align: center;
-}
+    text-align: center;}
 }
 
