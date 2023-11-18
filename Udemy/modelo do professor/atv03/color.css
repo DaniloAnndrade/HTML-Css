@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0c1014;
+    width: 90%;
+    max-width: 960px;
+    color: white;
+    margin: 0 auto;}
+
+header{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #05080a;}
+
+header h2{ margin-left: 15px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;}
+    
+.ul-navegação{
+    gap: 16px;
+    list-style-type: none;
+    display: flex;}
+
+
+.ul-navegação a{
+    border-radius: 6px;
+    padding: 19px;
+    color: white;
+    text-decoration: none;}
+
+a.planos-decoração{
+    
+    pointer-events: none;
+    color: #0c1014;
+    background-color: #cbe300;}
+
+.ul-navegação a:hover{
+    text-decoration: underline;
+}
+
+
+    
+/*Corpo*/
+
+h1{padding:  5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+/*Planos*/
+
+main{}
+.section-planos{
+    gap: 10px;
+    display: flex;}
+
+.div-conteudo{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 14px 30px ;  
+    box-shadow: 0 5px 16px 0 black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.h2-nome{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-right: auto ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #cbe300;}
+.p-preço{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 34px;
+    
+}
+.ul-lista{
+    flex:1;
+    line-height: 1.8;
+    padding-left:16px ;
+    margin: 5px 2px 30px 2px;
+}
+
+.ul-lista li::marker{color: #cbe300;}
+
+.div-conteudo a{
+    border-radius: 5px ;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    background-color: #cbe300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c1014;
+    text-decoration: none;}
+
+.div-conteudo a:hover{
+    outline: 2px solid #cbe300;
+    background:none;}  

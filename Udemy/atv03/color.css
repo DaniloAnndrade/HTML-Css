@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(17, 17, 17, 0.815);;
+    color: white;
+    margin: 0;}
+
+header{
+    padding: 10px;
+    width: 80%;
+    margin-inline: 10% ;
+    background-color: rgba(0, 0, 0, 0.397);}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 5px 0 0 0;}
+    
+.nav-header{
+    display: flex;
+}
+
+.ul-navegação{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    color: white;}
+
+.ul-navegação li{
+    border-radius: 10%;
+    padding: 10px;}
+
+.ul-navegação a{
+    color: white;
+    text-decoration: none;}
+
+.ul-navegação li:hover{
+    background-color: lawngreen;
+    color: white;
+    text-decoration: none;}
+    
+/*Corpo*/
+
+h1{text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+/*Planos*/
+
+main{}
+.div-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.ul-conteudo{
+    width: 950px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 950px;
+    gap: 16px;
+    
+}
+.li-bloco{
+    background-color: rgba(0, 0, 0, 0.397);
+    list-style-type: none;
+    flex-basis: 200px;
+
+    padding: 3% 5%;
+}
+
+
+
+
+
+
+
+.h3-nome{
+    padding-right: 50px ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid lawngreen;}
+.h3-preço{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+.li-bloco p{color: rgba(255, 255, 255, 0.596);}
+
+.li-bloco a{
+    padding: 5px 30%;
+    background-color: lawngreen;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;}

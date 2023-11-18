@@ -1,0 +1,43 @@
+Homens
+ 
+01
+nome:Melvin Stephens
+email:melvin.stephens@example.com
+Telefone:(239) 901-3901
+
+02
+nome:Owen Welch
+email:owen.welch@example.com
+Telefone:(417) 320-4709
+
+03
+nome:Alfred Fields
+email:alfred.fields@example.com
+Telefone:(749) 906-7497
+
+04
+nome:Ronald Meyer
+email:ronald.meyer@example.com
+Telefone:(825) 906-6631
+
+Mulheres
+
+01
+nome:Ruby Shelton
+email:ruby.shelton@example.com
+Telefone:(854) 593-4942
+
+02
+nome:Minnie Bates
+email:minnie.bates@example.com
+Telefone:(414) 772-6322
+
+03
+nome:Rosa Fisher
+email:rosa.fisher@example.com
+Telefone:(835) 820-1693
+
+04
+nome:Denise Sanders
+email:denise.sanders@example.com
+Telefone:(957) 831-2957
